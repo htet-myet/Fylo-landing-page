@@ -1,0 +1,1024 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.fylo-nav{
+    display: flex; 
+    justify-content: space-between;
+    padding: 5em;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 3em;
+    font-weight: 700;
+    color: hsl(238, 22%, 44%);
+    
+}
+
+.fylo-head-msg{
+    padding-top: 5em;
+    padding-right: 3.5em;
+}
+
+.fylo-head{
+    display: flex ;
+    padding:0 5em;
+    margin-bottom: 10em;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+
+.content{
+    font-size: 18px;
+    padding: 1em 0;
+    line-height: 1.5em;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email-input{
+    width: 310px;
+    height: 45px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.email-input::placeholder{
+    opacity: 40%;
+}
+
+
+button{
+    width: 210px;
+    margin-left: 1em;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid hsl(224, 93%, 58%);
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    cursor: pointer;
+    transition: all 800ms;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+button:hover{
+   opacity: 80%;
+   
+}
+
+.illustration-one{
+    width: 600px;
+}
+
+.illustration-two{
+    width: 550px;
+}
+
+.background{
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.fylo-body{
+    display: flex;
+    padding: 0em 4.5em ;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    background-color:  hsl(240, 75%, 98%);
+    font-family: 'Raleway', sans-serif;
+    opacity: 80%;
+}
+
+.contents{
+    padding: 1em 0 2em 0;
+}
+
+.fylo-body-content{
+    font-size: 16px;
+    padding: 1em 11em 0 0;
+    line-height: 1.5em;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fylo-body-work{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 3em;
+    width: 185px;
+    position: relative;
+
+}
+
+.fylo-work{
+    padding-left: 0;
+    color: hsl(170, 45%, 43%);
+}
+
+.arrow{
+    width: 20px;
+}
+
+.fylo-body-work:hover{
+    opacity: 70%;
+}
+
+.fylo-body-work::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -5px;
+    background-color: hsl(170, 45%, 43%);
+    position: absolute;
+    opacity: 0;
+    transition: all 800ms;
+}
+
+.fylo-body-work:hover::after{
+    width: 100%;
+    height: 1.5px;
+    background-color: hsl(170, 45%, 43%);
+    opacity: 100%;
+    
+}
+
+.kyle{
+    width: 350px;
+    background-image: url(./images/icon-quotes.svg);
+    background-repeat: no-repeat;
+    padding: 2em;
+    background-color: #fff;
+    background-position: 10% 15%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.kyle-content{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1em 0;
+    
+}
+
+.profile{
+    padding-left: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.kyle-img{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.kyle-pf{
+    display: flex;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.job{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.get-early-access{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.get-sentence{
+    width: 40%;
+}
+
+.get-headline{
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.get-email_btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.alert-two{
+    margin-top: 4em;
+}
+
+.get-email{
+    width: 90%;
+    height: 45px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.get-btn{
+    margin-left: 0;
+}
+
+.form_two{
+    width: 35%;
+}
+
+.fylo-foot{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(243, 87%, 12%);
+    padding: 5em ;
+}
+
+.foot-fylo{
+    filter: brightness(0) invert(1);
+}
+
+.fylo-icon-content{
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    gap: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fylo-foot-content{
+    color: #fff;
+}
+
+
+.fylo-a{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 5em;
+}
+
+.fylo-foot-a{
+    color: #fff;
+    font-weight: 400;
+    transition: all 800ms;
+}
+
+.fylo-foot-a:hover{
+    color: hsl(224, 93%, 58%);
+    opacity: 80%;
+}
+
+.icons{
+    padding: 5em 8em 0 0;
+}
+
+.f-icon{
+    padding: 10px 13px;
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    transition: all 800ms;
+}
+
+.twitter-icon{
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    transition: all 800ms;
+}
+
+.insta-icon{
+    padding: 10px 11px;
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    transition: all 800ms;
+}
+
+.f-icon:hover{
+    color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+
+.twitter-icon:hover{
+    color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+
+.insta-icon:hover{
+    color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+
+span{
+    font-size: 12px;
+    padding-top: 3px;
+    color: red;
+    opacity: 0;
+    position: absolute;
+    display: block;
+}
+
+@media screen and (max-width:1400px){
+    .illustration-one{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container{
+        overflow-x: hidden;
+    }
+
+    .fylo-head-msg{
+        padding-top: 5em;
+    }
+
+    h1{
+        font-size: 33px;
+    }
+
+    .content{
+        font-size: 15px;
+    }
+
+    .illustration-one{
+        width: 500px;
+    }
+
+    .email-input{
+        width: 260px;
+        height: 40px;
+    }
+
+    button{
+        height: 40px;
+        width: 175px;
+        margin-left: 5px;
+    }
+
+    .background{
+        background-position-x: center;
+    }
+
+    .illustration-two{
+        width: 500px;
+    }
+
+    .fylo-body-work{
+        gap: 5px;
+        margin-bottom: 2em;
+    }
+
+    .fylo-body-content{
+        padding: 1em 10em 0 0;
+        font-size: 13px;
+    }
+
+
+    .fylo-work{
+        font-size: 13px;
+    }
+
+    .arrow{
+        width: 15px;
+    }
+
+    .kyle{
+        width: 310px;
+    }
+
+    .kyle-content{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .profile{
+        padding-left: 0.5em;
+    }
+
+    .name{
+        font-size: 10px;
+    }
+
+    .job{
+        font-size: 8px;
+    }
+
+    .get-content{
+        font-size: 13px;
+    }
+
+    .get-email{
+        width: 100%;
+    }
+
+    .get-email_btn{
+        gap: 1em;
+    }
+
+    .alert-two{
+        margin-top: 3.5em;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container{
+        overflow-x: hidden;
+    }
+
+    .fylo-nav{
+        padding: 3em;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    .fylo-logo{
+        width: 120px;
+    }
+
+    .fylo-head{
+        padding: 0 3em ;
+        margin-bottom: 5em;
+    }
+
+    .fylo-head-msg{
+        padding: 3em 0;
+    }
+
+    h1{
+        font-size: 21px;
+    }
+
+    .content{
+        font-size: 10px;
+        padding-bottom: 2em;
+    }
+
+    .illustration-one{
+        width: 385px;
+    }
+
+    .email-input{
+        width: 170px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    button{
+        height: 30px;
+        width: 110px;
+        margin-left: 5px;
+        font-size: 10px;
+    
+    }
+
+    .background{
+        background-position-x: center;
+        height: 30px;
+    }
+
+    .fylo-body{
+        padding: 0 3em;
+        height: 500px;
+    }
+
+    .illustration-two{
+        width: 350px;
+        padding-bottom: 6em;
+    }
+
+    .fylo-body-work{
+        gap: 5px;
+        margin-bottom: 2em;
+    }
+
+    .fylo-body-content{
+        padding: 1em 4em 0 0;
+        font-size: 10px;
+    }
+
+    .fylo-work{
+        font-size: 11px;
+    }
+
+    .arrow{
+        width: 13px;
+    }
+
+    .kyle{
+        width: 230px;
+        background-position: 10% 12%;
+        padding: 1.5em;
+        border-radius: 5px;
+    }
+
+    .kyle-content{
+        font-size: 9px;
+        line-height: 18px;
+    }
+
+    .kyle-img{
+        width: 25px;
+    }
+
+    .profile{
+        padding-left: 0.5em;
+        padding-top: 0.2em;
+    }
+
+    .name{
+        font-size: 8px;
+        padding-bottom: 0px;
+    }
+
+    .job{
+        font-size: 7px;
+    }
+
+    .get-early-access{
+        padding: 3em;
+    }
+
+    .get-headline{
+        font-size: 25px;
+    }
+
+    .get-content{
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .get-email{
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .get-email_btn{
+        gap: 1em;
+    }
+
+    .get-btn{
+        font-size: 8px;
+    }
+
+    .alert-two{
+        margin-top: 3.5em;
+    }
+
+    .icons{
+        padding: 5em 2em 0 0em ;
+    }
+
+
+    .foot-fylo{
+        width: 80px;
+    }
+
+    .fylo-foot-content{
+        font-size: 10px;
+    }
+
+    span{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .illustration-one{
+        width: 300px;
+    }
+
+    .fylo-head{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5em 0em 0em 0em;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .fylo-head-msg{
+        padding: 5em 2em;
+    }
+
+    .fylo-nav{
+        padding: 1em;
+    }
+
+    .fylo-logo{
+        width: 5em;
+    }
+
+    a{
+        padding-left: 1em;
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .content{
+        font-size: 13px;
+    }
+
+    .email-input{
+        width: 95%;
+    }
+
+    button{
+        margin: 1.5em 0;
+        width: 95%;
+    }
+
+    .fylo-body{
+        flex-direction: column-reverse;
+        padding: 3em 1em;
+        height: 1000px;
+       max-width: 100%;
+    }
+
+    .illustration-two{
+        width: 360px;
+        
+    }
+
+    .background{
+        background-size: 100%;
+        height: 30px;
+    }
+
+    .contents{
+        padding: 1em 1em;
+    }
+
+    .fylo-body-msg{
+        padding: 5em 0 ;
+    }
+
+    .productive{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .fylo-body-content{
+        padding: 1em 2em 0 0em;
+        font-size: 14px;
+    }
+
+    .fylo-body-work{
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    
+    .kyle{
+        width: 300px;
+        background-position-x: 33px;
+        margin: 0 auto;
+    }
+
+    .kyle-content{
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .profile{
+        padding-left: 1em;
+        
+    }
+
+    .name{
+        font-size: 12px;
+    }
+
+    .job{
+        font-size: 8px;
+    }
+
+    .get-early-access{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3em 2em;
+        justify-content: center;
+    }
+
+    .get-sentence{
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .get-headline{
+        font-size: 20px;
+        padding-bottom: 1em;
+    }
+    
+    .get-email_btn{
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    .get-email{
+        width: 90%;
+    }
+
+    .get-content{
+        font-size: 15px;
+        line-height: 23px;
+        padding-bottom: 2em;
+    }
+
+    .get-btn{
+        margin: 0;
+        width: 90%;
+       margin-top: 1em;
+    }
+
+    .alert-two{
+       margin: 3.5em 14em 0 0;
+    }
+
+    .fylo-foot{
+        flex-direction: column;
+        padding: 4em 3em;
+        height: 690px;
+    }
+    
+    .fylo-a{
+        padding-top: 3em;
+    }
+
+    .icons{
+        padding: 4em;
+    }
+
+    .form_two{
+        width: 100%;
+    }
+
+    span{
+        opacity: 0;
+        padding-left: 1em;
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .illustration-one{
+        width: 300px;
+    }
+
+    .fylo-head{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5em 0em 0em 0em;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .fylo-head-msg{
+        padding: 5em 2em;
+    }
+
+    .fylo-nav{
+        padding: 1em;
+    }
+
+    .fylo-logo{
+        width: 5em;
+    }
+
+    a{
+        padding-left: 1em;
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .content{
+        font-size: 13px;
+    }
+
+    .email-input{
+        width: 95%;
+    }
+
+    button{
+        margin: 1.5em 0;
+        width: 95%;
+        height: 40px;
+    }
+
+    .fylo-body{
+        flex-direction: column-reverse;
+        width: 400px;
+        padding: 3em 1em;
+        height: 1000px;
+       
+    }
+
+    .illustration-two{
+        width: 360px;
+        
+    }
+
+    .background{
+        background-position: center;
+        background-size: 400px;
+        background-position-y: 111%;
+        height: 30px;
+    }
+
+    .contents{
+        padding: 1em 1em;
+    }
+
+    .fylo-body-msg{
+        padding: 5em 0 ;
+    }
+
+    .productive{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .fylo-body-content{
+        padding: 1em 2em 0 0em;
+        font-size: 14px;
+    }
+
+    .fylo-body-work{
+        margin: 0 auto;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    
+    .kyle{
+        width: 300px;
+        background-position-x: 33px;
+        margin: 0 auto;
+    }
+
+    .kyle-content{
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .profile{
+        padding-left: 1em;
+        
+    }
+
+    .name{
+        font-size: 12px;
+    }
+
+    .job{
+        font-size: 8px;
+    }
+
+    .get-early-access{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3em 2em;
+        justify-content: center;
+    }
+
+    .get-sentence{
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .get-headline{
+        font-size: 20px;
+        padding-bottom: 1em;
+    }
+    
+    .email-input{
+       height: 40px;
+    }
+
+    .get-email_btn{
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+      
+    }
+
+    .get-email{
+        width: 90%;
+    }
+
+    .get-content{
+        font-size: 15px;
+        line-height: 23px;
+        padding-bottom: 2em;
+    }
+
+    .get-btn{
+        margin: 0;
+        width: 90%;
+       margin-top: 1em;
+    }
+
+    .alert-two{
+       margin: 3.5em 14em 0 0;
+    }
+
+    .fylo-foot{
+        flex-direction: column;
+        padding: 4em 3em;
+        height: 690px;
+    }
+    
+    .fylo-a{
+        padding-top: 3em;
+    }
+
+    .icons{
+        padding: 4em;
+    }
+
+    .form_two{
+        width: 100%;
+    }
+
+    span{
+        opacity: 0;
+        padding-left: 1em;
+        font-size: 10px;
+    }
+
+}
